@@ -1,0 +1,10 @@
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.pth
+*.pt
+checkpoints*/
+outputs*/
+reference*/
+.env
