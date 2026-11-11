@@ -1,6 +1,8 @@
 # Spring Boot Simplified — Video Production
 
-This folder is the source of truth for video assets and rendering code. **No ChatGPT sandbox downloads needed.** Run everything on your Windows PC.
+This folder is the source of truth for video assets and rendering code.
+
+**STATUS / SCOPE:** Existing `build_video.py` produces a short **slide-based review preview**, not the 50–60-minute in-depth Day 01 masterclass. Do not label this output as the final YouTube lesson or pad it with repeated audio. Full masterclass content: [Day 01 masterclass](../day01/masterclass/README.md). Long-form narration, timing, animation and voice QA are still required. **No ChatGPT sandbox downloads needed.** Run everything on your Windows PC.
 
 ## Day 01 video
 
