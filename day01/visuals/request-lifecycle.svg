@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Spring Boot HTTP request lifecycle diagram">
+<rect width="1280" height="720" fill="#081827"/>
+<text x="72" y="105" font-family="Arial,sans-serif" fill="#FFFFFF" font-size="46" font-weight="700">Spring Boot Request X-Ray</text>
+<text x="72" y="145" font-family="Arial,sans-serif" fill="#9DC7CF" font-size="22">A simplified Spring MVC HTTP request path</text>
+<g font-family="Arial,sans-serif" font-size="24" text-anchor="middle">
+<rect x="55" y="280" width="208" height="120" rx="22" fill="#153B58" stroke="#66BBD9" stroke-width="3"/>
+<text x="159" y="331" fill="white">HTTP Client</text><text x="159" y="362" font-size="18" fill="#C3E1EA">GET /api/greetings</text>
+<rect x="309" y="280" width="208" height="120" rx="22" fill="#153B58" stroke="#66BBD9" stroke-width="3"/>
+<text x="413" y="331" fill="white">Servlet Server</text><text x="413" y="362" font-size="18" fill="#C3E1EA">e.g. Tomcat</text>
+<rect x="563" y="280" width="208" height="120" rx="22" fill="#155345" stroke="#6BDA9F" stroke-width="3"/>
+<text x="667" y="331" fill="white">Dispatcher</text><text x="667" y="362" fill="white">Servlet</text>
+<rect x="817" y="280" width="208" height="120" rx="22" fill="#153B58" stroke="#66BBD9" stroke-width="3"/>
+<text x="921" y="331" fill="white">Controller</text><text x="921" y="362" font-size="18" fill="#C3E1EA">@GetMapping</text>
+<rect x="1070" y="280" width="165" height="120" rx="22" fill="#153B58" stroke="#66BBD9" stroke-width="3"/>
+<text x="1152" y="331" fill="white" font-size="23">Return value</text><text x="1152" y="362" font-size="18" fill="#C3E1EA">record</text>
+</g>
+<g fill="none" stroke="#F4C671" stroke-width="6" stroke-linecap="round">
+<path d="M265 340 H305"/><path d="M295 330 L307 340 295 350"/>
+<path d="M519 340 H559"/><path d="M549 330 L561 340 549 350"/>
+<path d="M773 340 H813"/><path d="M803 330 L815 340 803 350"/>
+<path d="M1027 340 H1066"/><path d="M1056 330 L1068 340 1056 350"/>
+</g>
+<path d="M1152 420 V514 H159 V420" fill="none" stroke="#6BDA9F" stroke-width="5"/>
+<text x="650" y="499" font-family="Arial,sans-serif" text-anchor="middle" font-size="24" fill="#B1EDD2">HTTP response (via message converter)</text>
+<text x="640" y="630" font-family="Arial,sans-serif" text-anchor="middle" font-size="20" fill="#A1B5C9">Simplified: security filters, interceptors and error handling may add steps.</text>
+</svg>
