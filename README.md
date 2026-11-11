@@ -6,6 +6,8 @@ An English-first Spring Boot learning series for beginners **and** experienced J
 
 ## Day 01 — What is Spring Boot?
 
+**New full-course standard:** 50–60-minute concept-to-internals masterclass, followed by hands-on practice and an expert interview lab. The old 4-minute narrated preview is *not* an adequate full lesson. See [Day 01 masterclass materials](day01/masterclass/README.md).
+
 - [Lesson guide](day01/README.md)
 - [Working REST API project](day01/lesson01/)
 - [Interview & tricky questions](day01/interview-questions.md)
